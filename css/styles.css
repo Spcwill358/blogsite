@@ -1,0 +1,23 @@
+/*****************TAG SELECTORS***********************/
+body {
+  background-color: #8BBCCC;
+}
+
+hr {
+  background-color: #4C6793;
+  border-style: none;
+  height: 4px;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  color: #5C2E7E;
+}
+
+p, tr, td, ul, ol, li, input, label {
+  color: #000000;
+}
+
+/***************CLASS SELECTORS*********************/
+.blog-post {
+  width: 75%;
+}
