@@ -1,24 +1,81 @@
 /*****************TAG SELECTORS***********************/
 body {
-  background-color: #8BBCCC;
+  background-color: #1B2430;
+  text-align: center;
 }
 
 hr {
-  background-color: #4C6793;
+  background-color: #51557E;
   border-style: none;
   height: 4px;
   width: 90%;
 }
 
-h1, h2, h3, h4, h5, h6, a {
-  color: #5C2E7E;
+h1 {
+  color: #816797;
+  font-family: 'Syne Mono', monospace;
+}
+
+h2 {
+  color: #816797;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+h3 {
+  color: #816797;
+}
+
+h4 {
+  color: #816797;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+h5 {
+  color: #816797;
+}
+
+h6 {
+  color: #816797;
+}
+
+a {
+  color: #816797;
+  font-family: 'VT323', monospace;
 }
 
 p, tr, td, ul, ol, li, input, label {
-  color: #000000;
+  color: #D6D5A8;
+  font-family: 'VT323', monospace;
+}
+
+ul {
+  text-align: left;
 }
 
 /***************CLASS SELECTORS*********************/
+.books-to-be-read {
+  display: inline-block;
+}
+
+.books-ive-read {
+  display: inline-block;
+}
+
 .blog-post {
   width: 75%;
+  margin: 0 auto 0 auto;
+}
+
+.rating-table {
+  text-align: center;
+  display: inline-block;
+}
+
+.submit-button {
+  margin-top: 5px;
+  color: #000000;
+}
+
+.shame-table {
+  display: inline-block;
 }
